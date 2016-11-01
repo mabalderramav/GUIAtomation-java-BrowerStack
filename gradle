@@ -1,0 +1,34 @@
+Starting a Gradle Daemon, 1 incompatible and 7 stopped Daemons could not be reused, use --status for details
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:runAllTestsInFirefox
+Running test: Test test01(org.fundaionjala.broserstack02.BrowseStackTest)
+
+Gradle Test Run :runAllTestsInFirefox > Gradle Test Executor 1 > org.fundaionjala.broserstack02.BrowseStackTest > test01 STARTED
+
+Gradle Test Run :runAllTestsInFirefox > Gradle Test Executor 1 > org.fundaionjala.broserstack02.BrowseStackTest > test01 FAILED
+    org.openqa.selenium.UnsupportedCommandException: Authorization required
+    Command duration or timeout: 4.35 seconds
+    Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+    System info: host: 'C302-06', ip: '172.20.80.16', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+    Driver info: org.openqa.selenium.remote.RemoteWebDriver
+        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+        at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+        at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+        at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+        at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+        at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+        at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+        at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+        at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+        at org.fundaionjala.broserstack02.BrowseStackTest.test01(BrowseStackTest.java:30)
+:runAllTestsInFirefox FAILED
+
+BUILD FAILED
+
+Total time: 24.41 secs
