@@ -17,9 +17,7 @@ env:
           K8Mnx2PHTQIgRz6ujgvMxiB5dSzMFZv5HR6cQRKLvyo3mg8yB7Md9Z0aQLA3u4rC4xaxtMeZ6aLJBqN1ZNQ+5tVkUrjo1LKZXxTc4xxh6tQGhiVKsksDS44kXoCNrdexWdlRjY1
           DkbJl9lpg1K0e/EMgFqVNpbof3T40C4tlB5AiiI9QUYEo2hsEajpX2cgYnGCeP2TPDkWSTu+jC1hWCalITfh5TTJE+CpTSgJHYC6OJwZO3nYAxpUhefqKzSL/yOcwNeX4hPDaHh
           xVvuRoneM05TtgjtJwc=
-before_install:
-  - composer config --global github-oauth.github.com "USER_NAME", "KEY"
-script: gradle runAllTestsInFirefox -PuserName=USER_NAME -Pkey=KEY
+script: gradle runAllTestsInFirefox -PuserName="$USER_NAME" -Pkey="$KEY"
 branches:
 only: master
 
