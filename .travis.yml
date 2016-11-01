@@ -4,19 +4,19 @@ jdk:
 sudo: required
 env:
   global:
-  - secure: "Tu3QBpIycV+VtNW0qLRvQBK4gniIqoYsohx/UXVKR9EvAqnXpLClC+E9ae3Zpg2qhP1eZSX/9t7XKLAI8SrgZFlvovMcQkY34Jpf7y6MywygMTAw3VOfKdRMoSln
+    secure: Tu3QBpIycV+VtNW0qLRvQBK4gniIqoYsohx/UXVKR9EvAqnXpLClC+E9ae3Zpg2qhP1eZSX/9t7XKLAI8SrgZFlvovMcQkY34Jpf7y6MywygMTAw3VOfKdRMoSln
            ayZDkoJZJRdx8XVHHvJUIajCGiRaq0JKX9TZq+oIeSCevMXCVlfGtml8c3aHSFCd4yih2WTBEmG9mtFm8bQJVH677s+28wUFb7Sgkes/jJ4oeS5UwhvIi3Nxlccsf9T56vFANeZ
            FzSEXBeKxfY6DtXedY++AsojDM/D1y1zA6tt7+IgIfQk2jt428kav248ZcQwneSa1uMu+dpkbVkv7gDEld9P+VJTa6/upanu914sLbbHnjQNrowPIOw+GqnUpYo1gKWgBTzVhl6
            7nxKelzSrrf2YUJxDZdVHBQdIvY77Xhp1LgUcITRUvkpDwY6RL5wkwqim2JctoB1BLktzm1c/DkMYm559TO1eR51QuQsjQlql5MHVw+pBdSitQxcQ2UjP8SwQwRCBmuks69hJAY
            6R6WN15Y9o9K1iq/SDe2CmqCMVUf2Ygy4WAn0TvenJEIBe5+0roDUX8gkmBITN3UQnFM34i0Q3ds/4W8ePJg/eiRo5QDmIw+1akbKWcokcIj7p0HBzdBneFoHoiKGqh8FeGb4sV
-           4Uu17SAMhHXWgYqt/J8="
+           4Uu17SAMhHXWgYqt/J8=
 
-  - secure: "TqJlovcK4vnbQpCYWb8dUxKmK269FzAN/smNTcjX1lj47o2CyfI8A7w7RtdV4zoDI4Wr+v4Lz52FYDXu8gu2K9qGzQAsTOLe7yLJVI3Hqunzmfuiw8etJ6rip7E6
+    secure: TqJlovcK4vnbQpCYWb8dUxKmK269FzAN/smNTcjX1lj47o2CyfI8A7w7RtdV4zoDI4Wr+v4Lz52FYDXu8gu2K9qGzQAsTOLe7yLJVI3Hqunzmfuiw8etJ6rip7E6
           Ui5cKbdHYMQ7QQ3cmlZ6wH1lvLRwZ+tklye245cMirW3K9J+OGOcKZHP7DF/4XKffPPSIPXiZn6ad9HVE1+jDd/bUkpQP9ugh/5wDZdE8Qm3s9VfOIXBFabzF/fow6dGpEnwPUQ
           YHpaSBdYHMBXf+dlchIkmCTCYzhSVUzGax2JNwT/GkEA/Wu2icaLoEIkNlFjzP0bD9Zf3sOKs2EAoMsr9qVJcxa2FMyQuQKcg87Xpc9ssxvjR4z71AVhrul59z+nl6irt884e5q
           K8Mnx2PHTQIgRz6ujgvMxiB5dSzMFZv5HR6cQRKLvyo3mg8yB7Md9Z0aQLA3u4rC4xaxtMeZ6aLJBqN1ZNQ+5tVkUrjo1LKZXxTc4xxh6tQGhiVKsksDS44kXoCNrdexWdlRjY1
           DkbJl9lpg1K0e/EMgFqVNpbof3T40C4tlB5AiiI9QUYEo2hsEajpX2cgYnGCeP2TPDkWSTu+jC1hWCalITfh5TTJE+CpTSgJHYC6OJwZO3nYAxpUhefqKzSL/yOcwNeX4hPDaHh
-          xVvuRoneM05TtgjtJwc="
+          xVvuRoneM05TtgjtJwc=
 
 script: gradle runAllTestsInFirefox -PuserName=USER_NAME -Pkey=KEY
 branches:

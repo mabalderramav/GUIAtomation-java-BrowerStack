@@ -21,7 +21,7 @@ public class BrowseStackTest {
         System.out.println(USERNAME);
         final String url = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
         DesiredCapabilities caps = new DesiredCapabilities();
-//        System.getProperties().put("https.proxyHost", "172.31.90.162");
+//       System.getProperties().put("https.proxyHost", "172.31.90.162");
 //        System.getProperties().put("https.proxyPort", "8080");
         caps.setCapability("browser", "chrome");
         caps.setCapability("browserstack.debug", "true");
