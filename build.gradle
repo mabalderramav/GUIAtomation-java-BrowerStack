@@ -73,8 +73,9 @@ tasks.withType(Test) {
     systemProperties['login.password'] = 'password'
     systemProperties['webdriver.chrome.driver'] = 'chromedriver.exe'
     systemProperties['set.native.events'] = true
-    systemProperties['browserstack.username'] = 'miguelaldobalder1'
-    systemProperties['browserstack.key'] = 'FsyQMJ7r4yuvjo1wQfEa'
+
+    systemProperties['browserstack.username'] = userName
+    systemProperties['browserstack.key'] = key
     // initial browser size and position
     systemProperties['windowXPosition'] = '100'
     systemProperties['windowYPosition'] = '40'
