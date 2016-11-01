@@ -16,8 +16,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class BrowseStackTest {
     @Test
     public void test01() throws Exception {
-        String USERNAME = System.getProperty("browserstack.username") != null? System.getProperty("browserstack.username"): "lourdesvillca1";
-        String AUTOMATE_KEY = System.getProperty("browserstack.key") != null ? System.getProperty("browserstack.key") : "sqxpzNKfTCqmPKkpB9mH";
+        String USERNAME = System.getProperty("browserstack.username") != null? System.getProperty("browserstack.username"): "miguelaldobalder1";
+        String AUTOMATE_KEY = System.getProperty("browserstack.key") != null ? System.getProperty("browserstack.key") : "FsyQMJ7r4yuvjo1wQfEa";
         System.out.println(USERNAME);
         final String url = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
         DesiredCapabilities caps = new DesiredCapabilities();
