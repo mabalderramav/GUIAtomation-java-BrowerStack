@@ -4,28 +4,13 @@ jdk:
 sudo: required
 env:
   global:
-    - secure: Tu3QBpIycV+VtNW0qLRvQBK4gniIqoYsohx/UXVKR9EvAqnXpLClC+E9ae3Zpg2qhP1eZSX/9t7XKLAI8SrgZFlvovMcQkY34Jpf7y6MywygMTAw3VOfKdRMoSln
-           ayZDkoJZJRdx8XVHHvJUIajCGiRaq0JKX9TZq+oIeSCevMXCVlfGtml8c3aHSFCd4yih2WTBEmG9mtFm8bQJVH677s+28wUFb7Sgkes/jJ4oeS5UwhvIi3Nxlccsf9T56vFANeZ
-           FzSEXBeKxfY6DtXedY++AsojDM/D1y1zA6tt7+IgIfQk2jt428kav248ZcQwneSa1uMu+dpkbVkv7gDEld9P+VJTa6/upanu914sLbbHnjQNrowPIOw+GqnUpYo1gKWgBTzVhl6
-           7nxKelzSrrf2YUJxDZdVHBQdIvY77Xhp1LgUcITRUvkpDwY6RL5wkwqim2JctoB1BLktzm1c/DkMYm559TO1eR51QuQsjQlql5MHVw+pBdSitQxcQ2UjP8SwQwRCBmuks69hJAY
-           6R6WN15Y9o9K1iq/SDe2CmqCMVUf2Ygy4WAn0TvenJEIBe5+0roDUX8gkmBITN3UQnFM34i0Q3ds/4W8ePJg/eiRo5QDmIw+1akbKWcokcIj7p0HBzdBneFoHoiKGqh8FeGb4sV
-           4Uu17SAMhHXWgYqt/J8=
-
-    - secure: TqJlovcK4vnbQpCYWb8dUxKmK269FzAN/smNTcjX1lj47o2CyfI8A7w7RtdV4zoDI4Wr+v4Lz52FYDXu8gu2K9qGzQAsTOLe7yLJVI3Hqunzmfuiw8etJ6rip7E6
-          Ui5cKbdHYMQ7QQ3cmlZ6wH1lvLRwZ+tklye245cMirW3K9J+OGOcKZHP7DF/4XKffPPSIPXiZn6ad9HVE1+jDd/bUkpQP9ugh/5wDZdE8Qm3s9VfOIXBFabzF/fow6dGpEnwPUQ
-          YHpaSBdYHMBXf+dlchIkmCTCYzhSVUzGax2JNwT/GkEA/Wu2icaLoEIkNlFjzP0bD9Zf3sOKs2EAoMsr9qVJcxa2FMyQuQKcg87Xpc9ssxvjR4z71AVhrul59z+nl6irt884e5q
-          K8Mnx2PHTQIgRz6ujgvMxiB5dSzMFZv5HR6cQRKLvyo3mg8yB7Md9Z0aQLA3u4rC4xaxtMeZ6aLJBqN1ZNQ+5tVkUrjo1LKZXxTc4xxh6tQGhiVKsksDS44kXoCNrdexWdlRjY1
-          DkbJl9lpg1K0e/EMgFqVNpbof3T40C4tlB5AiiI9QUYEo2hsEajpX2cgYnGCeP2TPDkWSTu+jC1hWCalITfh5TTJE+CpTSgJHYC6OJwZO3nYAxpUhefqKzSL/yOcwNeX4hPDaHh
-          xVvuRoneM05TtgjtJwc=
+  - secure: Hg3FOFJt7chuhy9T5tJ5lQt+N1YR0TEk+MZfD728a9px3FCgXY1d3/8n7GJYD7rz9d8f3DPVoSJO8aLmrxoKaprbCs7Cb1aHV36JO1kmvVS+h0WaLI5nVXHVfgGyZt42sBkkXqm7lhOZ+Whkh7jaTipZzEunPgvlY44tk6SJcwmQdYGa8k6NE5rjnL3+wThDzAtPRIDVq8FBQCcxCRW4HQW0kE+dxR9F7qNMCU906dYagNuNK7B+VRmvULHKTYznlj+qy6oWRge4wlnkKTbR/pkM9iJ6RGg2IJ6xca7X+T7JXY0gOBLm2jhzzBDkg78t2pLxeMbo2HsOdOzHtt/+279UGBIFYSkZNl/N4LLin9z/OAf9BP6FIM8QcejR+h1NNu98cx3/d8w3NojO0tbED9dFCpGOjv9H+X6RfFPjUWVu59oS9RNBvNFqKvmNmvHJ/Kxrs1hYLOBUdjqDKPlkPpEtgCkm56n5CO4JPcz0pt8iyYQuLmVqdVwBN1nzMO3hgtaUDZtp5eYcK6xyI5tXv9X0kpLqUC6W7kqSgIbaTjs5h1xroUqcGu1I4H2OWYbStPDhl/LiSlk9IEYsi9GA+fUo/HmZDBZ7j2oAovUFRcDXqUqVMQapqCSQpviSLeZJKN/T0vD2U87rMAQWHAsZbBabpAakdFGorghPLTBXL78=
+  - secure: WrDJ9hGz2jZSvs98z4vM0Z1LMApv3XhpWCHUDKena0yUc36ORUdilcVE4hjTmDvaoWEHzeU3xsXtSf8kECl0JbX50LNYa402cQWgo+NC2W0lIZ2CJxAmuz8eECChkz7hZtCVl45Tu2KHpxeN97ojjsNMnWT7AcJWfwjf+bBGxERB/q3a91Umvk+LbujFNDD+zN7IORxdNbkPNDDg0BD/ei0Kvw6OIQ4vQp3Yd3wxOB4znXhOIueHHQb23cTrMKTRNldzFoeJaSTX6fXK44Eo3GLCUEa95w7OeSN0RYsVWfgXAB3oI/bFYqQlEkg15/MA0QkishIxC6vhkkzjBYvPNgqoC8fbE7ZRUwDbeHGENjLWuAO8rkM/k99wDA/ygpAafN0TqO6o6YNP3nwyJKfYvaBHnKmyoCP/cdmOi+iGPVKnVa0oLSV0YDDooEMv/tzEFBe490gHnrw8ZJPMDnAH4FqyTwCFpQqhqLEwWurk/kl6pcGcY+jLx62eF4oIvw1HDqSaWUPN8SvnZQzvGqNkInY72DHOAQ3qkBAS3bV0BgUClIfvtiabxchDwRI6V9TZkhN+iEyCSY+++1zZ19reDmZZ60xLtHyEqmHQbIQ+Ign9mOKFn3Mnu9SDy0rvxme6m0L1UZ5PsfzQj6LqxTUhWV8INJda0U++j+7hXRDnlgc=
 script: gradle runAllTestsInFirefox -PuserName=$USER_NAME -Pkey=$KEY
-branches:
+branches: 
 only: master
-
 notifications:
   email: true
   recipients:
   - carlos.gonzales@jalasoft.com
   - AT01@fundacion-jala.org
-
-
-
