@@ -2,13 +2,8 @@ language: java
 jdk:
 - oraclejdk8
 sudo: required
-
-script: gradle runAllTestsInFirefox
-branches:
+script: gradle runAllTestsInFirefox -PuserName=lourdesvillca1 -Pkey="$KEY"
+branches: 
 only: master
-
-notifications:
-  email: true
-  recipients:
-  - carlos.gonzales@jalasoft.com
-  - AT01@fundacion-jala.org
+env:
+  secure: IfRO1LrfHaWE6OWXl5FZ498mfwyKm91ivluQQLYcy7arzBikNP3WSTTN6kD7/n2miOoV5wlxZOJLDyGCO8FGBcZ6sRInVqRA94Ij8+AG06oDCOI+BrSV2OHbOIidR5CveDNwsTQl1ocSNfZCdeScU59MEncl1fw2twroOiPp6t/wzZGvoNZDvEKLxVbuGbGIAnqjkU9AJspXuR0mBKRx7qirn7azxCawln8BBtmP6ZZ2PB7ejBYZCL+Xg0iXftpHIqWvFgvcMYy98b8ukDCjvDshin9awRHzwTRNuGd753Qd1NzFXOcG5i2DmHamenvj+7ABeHXcdk8EHzMj0JEjVjvVfSTzHYsCxUQkdIuTrxIu2O5jeGOX1EPipTDUAre/27wMMQMTgEKpSANPrnUqWtDUX0pzQjHBfg346lHDuer1sHCn15jraKrSvPXmzNz2LVYuW32TBmiFgNgEfeLx3Z3D4R87Ohk/LlzLdQqsguYkCoWNPBECsj/F13i4Th19VVip4eM4cTdk3j+vrBsf0TwlWPkFLfKKcWilCINv2owSPK0+TUKmyUMYtd7DIrOgVVwTRY/CbU+8QKweWiXsqoizSOjpCDPDgEqkiO9fVQWfOUuC7bvQ6xEcXtmS83OAy/QHA3p0IcZ4Ca3fazzn/NWWfGtREmtpOsm/rFO3nY4=

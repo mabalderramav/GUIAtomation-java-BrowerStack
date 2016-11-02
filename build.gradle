@@ -73,8 +73,8 @@ tasks.withType(Test) {
     systemProperties['login.password'] = 'password'
     systemProperties['webdriver.chrome.driver'] = 'chromedriver.exe'
     systemProperties['set.native.events'] = true
-    systemProperties['browserstack.username'] = 'miguelaldobalder1'
-    systemProperties['browserstack.key'] = 'FsyQMJ7r4yuvjo1wQfEa'
+
+
     // initial browser size and position
     systemProperties['windowXPosition'] = '100'
     systemProperties['windowYPosition'] = '40'
@@ -87,6 +87,8 @@ task runAllTestsInFirefox(type: Test) {
     systemProperties['browser.type'] = 'firefox'
     systemProperties['webdriver.firefox.logfile'] = 'logs/firefox-console.log'
     systemProperties['webdriver.log.file'] = System.getProperty("user.dir") + 'logs/webdriver.log'
+    systemProperties['browserstack.username'] = userName
+    systemProperties['browserstack.key'] = key
 //    include '**/GroovyTest*.class'
 //    testReportDir = file("${reporting.baseDir}/GroovyTestFF")
 //    testResultsDir = file("${buildDir}/test-results/GroovyTestFF")
